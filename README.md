@@ -11,6 +11,8 @@ EventBus.
 
 ## Installation
 
+`composer require blacksmith-project/event-bus`
+
 ## How to use it ?
 
 - Your events need to implement the empty interface `\BSP\Event`
