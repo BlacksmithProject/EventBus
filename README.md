@@ -1,5 +1,9 @@
 # BlacksmithProject - EventBus
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/BlacksmithProject/EventBus/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/BlacksmithProject/EventBus/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/BlacksmithProject/EventBus/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/BlacksmithProject/EventBus/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/BlacksmithProject/EventBus/badges/build.png?b=master)](https://scrutinizer-ci.com/g/BlacksmithProject/EventBus/build-status/master)
+
 ## Why ?
 
 In order to improve my skills, I'm doing my own implementation of an
