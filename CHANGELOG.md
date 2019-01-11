@@ -7,6 +7,10 @@
 
 ### New features
 
+- Add `\BSP\EventBus`
+- Add `\BSP\Event`
+- Add `\BSP\EventListener`
+
 ### Bugfixes
 
 </details>
