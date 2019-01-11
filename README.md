@@ -15,7 +15,8 @@ EventBus.
 
 > Please note that there may be multiple listeners to a single event.
 
-You can look for example in the [tests/Mock]() folder.
+You can look for example in the [tests/Mock](https://github.com/BlacksmithProject/EventBus/tree/master/tests/Mock)
+folder.
 
 Now, you only need to inject your EventBus and send Events.
 
