@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace BSP\Tests\Mock;
+namespace BSP\EventBus\Tests\Mock;
 
-use BSP\EventBus;
+use BSP\EventBus\EventBus;
 
 final class UserEventBus extends EventBus
 {

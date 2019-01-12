@@ -3,7 +3,8 @@ declare(strict_types=1);
 
 namespace BSP\EventBus\Tests\Mock;
 
-final class UserList
+use BSP\EventBus\Event;
+
+final class UserAuthenticated implements Event
 {
-    public static $list = [];
 }

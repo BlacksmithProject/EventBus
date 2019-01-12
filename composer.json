@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "blacksmith-project/dr-watson": "^0.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.3",
@@ -20,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BSP\\": "src/"
+            "BSP\\EventBus\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BSP\\Tests\\": "tests/"
+            "BSP\\EventBus\\Tests\\": "tests/"
         }
     }
 }
