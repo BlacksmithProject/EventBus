@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace BSP;
+namespace BSP\EventBus;
 
 use BSP\DrWatson\DrWatson;
 
