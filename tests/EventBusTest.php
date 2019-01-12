@@ -56,7 +56,7 @@ final class EventBusTest extends TestCase
             $this->eventBus->send($event);
         } catch (EventBusException $exception) {
             $this->assertTrue(ExceptionType::DOMAIN()->equals($exception->type()));
-            $this->assertSame('domain.eventbus.event.unkown', $exception->message());
+            $this->assertSame('domain.eventbus.event.unknown', $exception->message());
             $this->assertSame('"BSP\EventBus\Tests\Mock\UserEventBus" listeners.', $exception->suspect());
             $this->assertSame(
                 'You may have forgot to add the "BSP\EventBus\Tests\Mock\UserAuthenticated" event to the "BSP\EventBus\Tests\Mock\UserEventBus" eventBus.',
