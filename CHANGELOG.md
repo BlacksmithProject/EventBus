@@ -13,6 +13,12 @@
 
 </details>
 
+## v0.2.1
+
+### Bugfixes
+
+- update `blacksmith-project/dr-watson`
+
 ## v0.2.0
 
 ### BREAKING CHANGES
