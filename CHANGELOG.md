@@ -5,15 +5,21 @@
 
 ### BREAKING CHANGES
 
+### New features
+
+### Bugfixes
+
+</details>
+
+## v0.2.0
+
+### BREAKING CHANGES
+
 - update namespace from `BSP\` to `BSP\EventBus\`
 
 ### New features
 
 -  `\BSP\EventBus` now properly throws exception when event is not declared
-
-### Bugfixes
-
-</details>
 
 ## v0.1.0
 
