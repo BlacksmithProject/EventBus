@@ -29,7 +29,7 @@ abstract class EventBus
         if (!isset($this->listeners[get_class($event)])) {
             throw EventBusException::report(
                 ExceptionType::DOMAIN(),
-                'domain.eventbus.event.unkown',
+                'domain.eventbus.event.unknown',
                 sprintf('"%s" listeners.', static::class),
                 sprintf('You may have forgot to add the "%s" event to the "%s" eventBus.', get_class($event), static::class)
             );
