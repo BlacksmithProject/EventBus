@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "blacksmith-project/dr-watson": "^0.2"
+        "blacksmith-project/dr-watson": "^0.3"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.3",

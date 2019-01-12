@@ -9,6 +9,8 @@
 
 ### Bugfixes
 
+- update `blacksmith-project/dr-watson`
+
 </details>
 
 ## v0.2.0

@@ -27,7 +27,7 @@ abstract class EventBus
     public function send(Event $event): void
     {
         if (!isset($this->listeners[get_class($event)])) {
-            throw EventBusException::report(
+            throw new EventBusException(
                 ExceptionType::DOMAIN(),
                 'domain.eventbus.event.unknown',
                 sprintf('"%s" listeners.', static::class),
